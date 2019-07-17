@@ -48,7 +48,7 @@ function reset() {
     $('.selectedNumber').text(randNumber);
 };
 
-//on Click Events And Populate to Your Number
+//on Click Events, Populate to Your Number, and check for Win/Loss
 
 $('.image1').on('click', function (event) {
     playerNumber = playerNumber + imageNumber1;
@@ -98,8 +98,4 @@ $('.image4').on('click', function (event) {
         reset();
     };
 })
-
-
-
 });
-//Winning and Losing Conditions and Alerts

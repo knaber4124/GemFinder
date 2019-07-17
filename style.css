@@ -1,0 +1,10 @@
+body{
+    background-image: url('./assets/treasuremap.jpg');
+    font-family: 'Charm', cursive, bold;
+    font-size:21px;
+}
+.GCimage:hover{
+        animation: flip;
+        animation-duration: 1s;
+
+    }
