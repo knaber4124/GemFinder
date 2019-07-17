@@ -11,7 +11,7 @@ body{
 
 @Media only screen and (max-width:768px){
     img{
-        height:80px;
-        width:80px;
+        height:75px;
+        width:75px;
     }
 }
