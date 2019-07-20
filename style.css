@@ -8,10 +8,23 @@ body{
         animation-duration: 1s;
 
 }
+.modal-body {
+    background-image: url(./assets/treasuremap.jpg);
+ }
+ .modal-header{
+    background-image: url(./assets/treasuremap.jpg);
+ }
+
+ .modal-footer{
+    background-image: url(./assets/treasuremap.jpg);
+ }
 
 @Media only screen and (max-width:768px){
     img{
         height:75px;
         width:75px;
+    }
+    .col-md-{
+        
     }
 }

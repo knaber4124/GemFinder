@@ -37,6 +37,46 @@
             <p class='instructions'>Click on the coins below and try to collect the right amount</p>
         </div>
     </div>
+    <div class="modal fade" id="modalWin" tabindex="-1" role="dialog" aria-labelledby="modalWinTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="modalWinTitle">You Win!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="./assets/win.jpg" alt='Treasure Chest' height='100' width='100'>
+                    <p>You collected enough gold and escaped before the pirates caught you!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalLoss" tabindex="-1" role="dialog" aria-labelledby="modalLossTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="modalLossTitle">You Lose</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="./assets/loss.jpg" alt='Skull and Crossbones' height='100' width='100'>
+                    <p>You got greedy and the pirates caught you!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class='row'>
         <div class='col-md-2'>
         </div>

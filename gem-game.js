@@ -1,5 +1,7 @@
+//Establish page
 $(document).ready(function () {
-
+    $('#modalWin').modal({ show: false});
+    $('#modalLoss').modal({ show: false});
     //Global Arrays
     let randNumberString = [Math.floor(Math.random() * 31) + 30];
     let playerNumberString = 0;
@@ -45,12 +47,14 @@ $(document).ready(function () {
     function declareWin() {
         wins++;
         $('.wins').text(wins);
-        window.open('./win.html');
+        $('#modalWin').modal('show');
+        //window.open('./win.html');
     };
     function declareLoss() {
         losses++;
         $('.losses').text(losses);
-        window.open('./loss.html');
+        $('#modalLoss').modal('show');
+        //window.open('./loss.html');
     };
     //on Click Events, Populate to Your Number, and check for Win/Loss
 
