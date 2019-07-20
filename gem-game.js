@@ -48,13 +48,13 @@ $(document).ready(function () {
         wins++;
         $('.wins').text(wins);
         $('#modalWin').modal('show');
-        //window.open('./win.html');
+        
     };
     function declareLoss() {
         losses++;
         $('.losses').text(losses);
         $('#modalLoss').modal('show');
-        //window.open('./loss.html');
+        
     };
     //on Click Events, Populate to Your Number, and check for Win/Loss
 
